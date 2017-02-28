@@ -62,6 +62,8 @@ Quantity | Part | Additional information
 
 8. Insert the USB external hard drive or USB memory stick into a USB slot on  the Pi.
 
+    (picture required)
+
 ### Image capture process
 
 1. Set the date and time on Pi
@@ -136,7 +138,7 @@ Quantity | Part | Additional information
 
     The shutterspeed determines the amount of light captured by the camera and is measured in microseconds. Lower values = less light (dimmer image), higher values = more light (brigher image). Too dull and there will be more noise in the capture images, too bright and areas may be over-exposed. The LED lights are very bright to ensure there is less noise. Start with values around 1000 and adjust by 200 either way until the reaching the optimum shutterspeed.
 
-    The shutterspeed is provided to the cavicapture script via the '--shutterspeed' option.
+    The shutterspeed is provided to the cavicapture script via the **--shutterspeed** option.
 
     Run the cavicapture script in setup mode, this time providing the shutterspeed as an additional option:
 
@@ -160,8 +162,8 @@ Quantity | Part | Additional information
 
     Now the cavicapture script is run with two additional options '--interval' and '--duration':
 
-    * '--interval' sets the time between image captures, in seconds
-    * '--duration' sets the total time for the capture sequence, in seconds
+    * **--interval** sets the time between image captures, in seconds
+    * **--duration** sets the total time for the capture sequence, in seconds
     
     For example, to capture an image every 5 minutes for 2 days:
 
@@ -177,11 +179,11 @@ Quantity | Part | Additional information
     The script will open a preview to check everything is OK. If not press CTRL-C to exit or adjust as required. Press Enter to start the capture process.
 
 
-### Measure plant water status
+### Measuring plant water status
 
 At regular intervals take measurements of the plant water potential by removing leaves and measuring using a scholander pressure chamber.
 
-For more continuous and autonomous measurements use an [ICT Stem Psychrometer](http://www.ictinternational.com/products/psy1/psy1-stem-psychrometer/). In this case attach the psychrometer to the stem **before** fixing the sample in the clamp.
+For more continuous and autonomous measurements use an [ICT Stem Psychrometer](http://www.ictinternational.com/products/psy1/psy1-stem-psychrometer/). When using a psychrometer attach the psychrometer to the stem **before** fixing the sample in the clamp.
 
 
 
