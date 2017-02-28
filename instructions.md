@@ -118,7 +118,7 @@ Quantity | Part | Additional information
 
     This will turn on the LED lights in the clamp and show a full screen camera preview.
 
-    If the lights don't turn on or you get an error message then see [Troubleshooting](./troubleshooting.md) for possible solutions.
+    If the lights don't turn on or you get an error message see [Troubleshooting](./troubleshooting.md) for possible solutions.
 
 4. Insert the sample between the spacer and the foot. It may be useful to apply tape to the edges of the sample to keep it fixed in position.
 
