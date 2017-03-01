@@ -1,4 +1,4 @@
-# Image Capture and Setup (clamp)
+# Clamp Image Capture Instructions
 
 ![](./images/IMG_6173.jpg)
 
