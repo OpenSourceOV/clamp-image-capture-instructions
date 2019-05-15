@@ -113,7 +113,7 @@ Quantity | Part | Additional information
     From the terminal:
 
     ```
-    cavicapture.py --setup true
+    sudo python cavicapture.py --setup true
     ```
 
     This will turn on the LED lights in the clamp and show a full screen camera preview.
@@ -143,14 +143,14 @@ Quantity | Part | Additional information
     Run the cavicapture script in setup mode, this time providing the shutterspeed as an additional option:
 
     ```
-    cavicapture.py --setup true --shutterspeed 1000
+    sudo python cavicapture.py --setup true --shutterspeed 1000
     ```
 
     The preview window will load applying the shutterspeed provided. Press Enter to exit the preview. Re-run the command with different shutterspeed values (pressing Enter to exit each time) until an optimum is reached:
 
     ```
-    cavicapture.py --setup true --shutterspeed 600
-    cavicapture.py --setup true --shutterspeed 1400
+    sudo python cavicapture.py --setup true --shutterspeed 600
+    sudo python cavicapture.py --setup true --shutterspeed 1400
     ...
     ```
 
@@ -173,7 +173,7 @@ Quantity | Part | Additional information
     Using these values we run the cavicapture script (without the --setup option):
 
     ```
-    cavicapture.py --shutterspeed 800 --interval 300 --duration 172800
+    sudo python cavicapture.py --shutterspeed 800 --interval 300 --duration 172800
     ```
 
     The script will open a preview to check everything is OK. If not press CTRL-C to exit or adjust as required. Press Enter to start the capture process.
